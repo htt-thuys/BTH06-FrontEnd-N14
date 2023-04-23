@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px; 
+    background: url(images/bg-top.jpg) no-repeat top center #f2f2f2f2;
+}
+
+header {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.495);
+    height: 500px;
+}
+
+header ul{
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header ul li{
+    padding: 0 20px 0 20px;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: red;
+}
+
+.top{
+    background-color: #112141;
+    position: relative;
+    left: -103px;
+}
+
+.col1{
+    width: 240px;
+    background: none;
+}
+
+.col2{
+    width: fit-content;
+}
+
+.col2 button{
+    width: 100%;
+}
+
+.col2 img{
+    width: auto;
+    max-height: 262px;
+}
+
+img{
+    background: none no-repeat;
+}
+
+.content-top{
+    margin-left: auto;
+    margin-right: auto;
+    width: 989px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+
+.DangKy{
+    margin-top: 3px;
+    background-image: url(images/buttons-left_DangKy.png);
+    height: 64px;
+}
+
+.DangKy:hover{
+    background-image: url(images/buttons-left_DangKy-hover.png);
+}
+
+.NapThe{
+    background-image: url(images/buttons-left_NapThe.png);
+    height: 64px;
+    margin-top: 3px;
+}
+
+.NapThe:hover{
+    background-image: url(images/buttons-left_NapThe-hover.png);
+}
+
+.download{
+    padding-top: 8px;
+}
+
+.hotline{
+    padding: 7px 3px 0 0;
+}
+
+.event{
+    padding: 8px 5px 0px 5px;
+    max-height: 20px;
+}
+
+.news-header{
+    background: url(images/news-header-bg.png) no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+
+.news-header ul{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.news-header ul li{
+    list-style: none;
+    padding: 10px 5px 5px 5px;
+}
+
+.news-header ul li a{
+    text-decoration: none;
+    color: #C7A86C;
+    font-weight: bold;
+}
+
+.ele{
+    padding: 15px;
+}
+
+.ele img{
+    border: 7px solid #C7A86C;
+    height: 137px;
+    width: 143px;
+}
+
+.text{
+    width: 590px;
+    padding-left: 20px;
+}
+
+.text h1{
+    padding-left: 10px;
+    color: #B70F0B;
+    border-left: 6px solid #B70F0B;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.text i{
+    color: #8C8C8C;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.text p{
+    font-size: 14px;
+    color: #696969
+}
+
+.bot-content{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 990px;
+}
+
+.add{
+    padding-left: 20px;
+    color: #C7A86C;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-top: 12px;
+}
+
+.news-header a:hover{
+    color: #fff;
+}
+
+.news{
+    position: relative;
+    top: 3px;
+}
+
+.news-list{
+    border-left: 6px solid #1f3252;
+    border-right: 6px solid #1f3252;
+    border-bottom: 6px solid #1f3252;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.left{
+    width: 743px;
+    float: left;
+}
+
+.page{
+    margin: 20px 0px 20px 500px;
+    width: auto;
+}
+
+.page a{
+    padding: 10px;
+    background-color: rgb(17, 33, 65);
+    border: 3px solid #bfbfbf;
+    font-size: 14px;
+    color: #777986;
+    text-decoration: none;
+}
+
+.option{
+    background-color: rgb(17, 33, 65);
+    text-decoration: none;
+    width: 239px;
+    height: 310px;
+}
+
+.right{
+    width: 240px;
+    float: right;
+    position: relative;
+}
+
+.option{
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+
+.option div{
+    display: block;
+    line-height: 18px;
+}
+
+.lights{
+    position: relative;
+    left: -74px;
+    z-index: 1;
+}
+
+.list-event{
+    position: relative;
+    top: 3px
+}
+
+.option div a{
+    height: 55px;
+    width: 227px;
+    position: absolute;
+}
+
+footer{
+    background: url(images/bg-bottom.jpg) no-repeat bottom center #f2f2f2;
+    height: 300px;
+}
+
+footer img{
+    width: 120px;
+    height: 35px;
+}
+
+.end{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding-top: 170px;
+}
+
+.info{
+    position: relative;
+    left: 70px;
+}
+.info p{
+    text-align: center;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.ele:hover{
+    background-color: rgba(132, 131, 127, 0.175);
+}
